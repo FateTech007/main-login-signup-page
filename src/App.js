@@ -1,9 +1,10 @@
 import './App.css';
+import LoginSignup from './Commponent/LoginsignUp/LoginSignup.tsx';
 
 function App() {
   return (
     <div className="App">
-      <h1>Good to g2</h1>
+      <LoginSignup />
 
     </div>
   );
