@@ -30,7 +30,7 @@ const LoginSignup = () => {
         </p>
       </div>
       <div className="buttons">
-        <button>SignUp</button>
+        <button>Sign Up</button>
         <button>Login</button>
       </div>
     </div>

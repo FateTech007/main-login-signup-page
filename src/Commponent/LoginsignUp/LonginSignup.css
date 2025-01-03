@@ -62,4 +62,29 @@
   margin-top: 27px;
   color: #797979;
   font-size: 18px;
+
+  span {
+    color: blue;
+    font-style: italic;
+    cursor: pointer;
+  }
+  span:hover {
+    color: #000;
+  }
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  gap: 9px;
+
+  button {
+    padding: 15px 45px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    color: #797979;
+    cursor: pointer;
+  }
 }
